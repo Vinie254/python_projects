@@ -8,7 +8,7 @@ for word in message.split():
         prefixNonLetters += word[0]
         word = word[1:]
     if len(word) == 0:
-        pigLatin.append(pr.efixNonLetters)
+        pigLatin.append(prefixNonLetters)
         continue
 
     suffixNonLetters = ''
